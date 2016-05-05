@@ -1,0 +1,26 @@
+.box{
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    width: 400px;
+    margin: 0 auto;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding-left: 10px;
+}
+.submit{
+    border: 1px solid #000;
+    border-radius: 10%;
+    -moz-border-radius: 10%;
+    width: 80px;
+    font:bold 20px/30px Georgia, serif;
+    color: darkgreen;
+}
+.submit:hover{
+    background-color: darkgreen;
+    color: black;
+}
