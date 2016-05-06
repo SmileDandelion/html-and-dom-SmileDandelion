@@ -73,17 +73,17 @@ window.onload = function () {
             }
         }
 
-        for (var d = 6; d < 8; d++) {
-
-            var judgeChoose = forms[d].getElementsByTagName('input');
-
-            for (var e = 0; e < 4; e++) {
-
-                if (judgeChoose[e].checked && judgeChoose[e].value == judgeAnswer[d - 6]) {
-                    totalScore += 10;
-                }
-            }
-        }
+        // for (var d = 6; d < 8; d++) {
+        //
+        //     var judgeChoose = forms[d].getElementsByTagName('input');
+        //
+        //     for (var e = 0; e < 4; e++) {
+        //
+        //         if (judgeChoose[e].checked && judgeChoose[e].value == judgeAnswer[d - 6]) {
+        //             totalScore += 10;
+        //         }
+        //     }
+        // }
         $('score').value = totalScore;
         alert('您的成绩是' + totalScore);
 
