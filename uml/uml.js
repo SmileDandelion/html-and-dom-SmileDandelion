@@ -36,8 +36,8 @@ window.onload = function () {
 
         for (var i = 1; i < 4; i++) {
             if (inputs[i].value == "") {
-                var tips = "请输入" + inputs[i].name;
-                alert(tips);
+                var tips = prompt("请输入" + inputs[i].name);
+                inputs[i].value  = tips;
             }
         }
 
